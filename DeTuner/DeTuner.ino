@@ -71,6 +71,7 @@ void sample() {
   sampleCount++;
 
   if (sampleCount < SAMPLES) return;
+  
   sampleCount = 0;
 
   /*FFT*/
